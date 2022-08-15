@@ -16,9 +16,9 @@ function App() {
       { error && <Error error={error}/> }
       { products.map(product => <Product product={product} key={product.id}/>) }
 
-        <Modal title='Create new product'>
-            <CreateProduct />
-        </Modal>
+        {/*<Modal title='Create new product'>*/}
+        {/*    <CreateProduct />*/}
+        {/*</Modal>*/}
     </div>
   );
 }
